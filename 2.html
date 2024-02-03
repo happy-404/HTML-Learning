@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<>'
+    <head>
+        <title>HTML Learning</title>
+        <style>
+            .heading{
+                text-align: center;color: brown;font-style: italic;border: 3px solid black;
+                background-color: burlywood;
+            }
+            table,th,td{
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            th{
+                background-color: chocolate;
+                border-radius: 10px;
+            }
+            td{
+                background-color: bisque;
+                
+            }
+            tr:hover {background-color: #D6EEEE;}
+        </style>
+
+    </head>
+    <body>
+        <h1 class="heading">Tables in HTML</h1>
+        <table border="1" style="width: 100%;" >
+            <caption>Table Example</caption>
+            
+            
+                
+                <tr>
+                    <th>Songra</th>
+                    <th colspan="2">Tamkoli</th>
+                    <!-- <th>Gabhana</th> -->
+                </tr>
+            
+            
+        
+            <tr>
+                <td>11</td>
+                <td >12</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>31</td>
+                <td>32</td>
+                <td>33</td>
+            </tr>
+        </table><hr>
+        <table style="width: 100%;" >
+
+        </table>
+        <h1 class="heading">HTML Forms</h1>
+        <b>Forms are used to collect different types of input from the user.</b>
+        <form autocomplete="on" method="post" novalidate>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="firstname"><br>
+            <label for="lname"> Last name:</label>
+            <input type="text" id="lname" name="Lastname">
+            <br>
+            <input type="submit" value="submit">
+            <!--The "for " attribute of the <label> tag should be equal to the "id" attribute of the <input> element
+            to bind them together-->
+        </form>
+        <div style="background-color: antiquewhite;">
+            <h2>A form with html radio Buttons:</h2>
+            <h3>Select Your Fav Language</h3>
+            <form>
+                <input type="radio" id="one" name="fav_language" value="HTML">
+                <label for="one">HTML</label><br>
+                <input type="radio" id="CSS" name="fav_language" value="CSS">
+                <label for="CSS">CSS</label><br>
+                <input type="radio" id="Javascript" name="fav_language" value="Javascript">
+                <label for="Javascript">JAVAScript</label>
+
+            </form>
+        </div>
+        <div style="background-color: aqua;">
+            <h2>A form for dropdown list</h2>
+            <h3> Which category do you belong?</h3>
+            <form>
+                <select id="categories" name="casts">
+                    <option value="General">General category</option>
+                    <option value="obc">OBC Category</option>
+                    <option value="SC/ST">SC/ST</option>
+
+                </select>
+            </form>
+            <form>
+                <textarea name="message" rows="10" cols="30">Write down your opinion on Cast Reservation!</textarea>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <div style="background-color: chartreuse;">
+            <h2> < fieldset > &  < legend ></h2>
+            <h4>They are being used to group realted data in a form</h4>
+            <form>
+                <fieldset>
+                    <legend>LOGin Here</legend>
+                    <label for="fname">Firstname:</label><br>
+                    <input id="fname" required placeholder="Enter Your First Name Here" type="text" name="fname"><br>
+                    <label for="lname">Lastname</label><br>
+                    <input id="lname" type="text" placeholder="Enter your Last name Here" name="lname"><br>
+                    <br>    
+                    <input type="submit" value="Submit Form">
+                    
+                    
+                </fieldset>
+            </form>
+            
+        </div>
+        <h3>Datalist in Html</h3>
+        <from>
+            <input list="browser">
+            <datalist id="browser">
+                <option value="Edge"></option>
+                <option value="Firefox"></option>
+                <option value="Chrome"></option>
+                <option value="Opera"></option>
+                <option value="Safari"></option>
+
+
+            </datalist>
+
+        </from>
+        <h1 class="heading" style="text-align: center;">Creating a short Login Page</h1>
+        <div>
+            <form style="text-align: center;">
+                <fieldset style="background-color: violet;">
+                    <legend>Login Information:</legend>
+                    <label for="Username">USERNAME:</label>
+                    <input type="text" id="Username"  required placeholder="Enter Username"><br>
+                    <br>
+                    <label for="pwd">PASSWORD:</label>
+                    <input id="pwd" value="password" required placeholder="Enter Password" type="password"><br>
+                    <br>
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+            <h3>Some Other Input Types</h3>
+            <form>
+                <label for="val">Speed</label>
+                <input type="range" id="val" name="val" min="0" max="50"><br>
+            </form>
+            
+                     
+
+
+        </div>
+        
+             
+            
+
+
+
+            
+    </body>
+</html>

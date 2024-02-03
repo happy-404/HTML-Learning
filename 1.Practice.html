@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <!----------------------------------MAIN HEADING-------------------------------------- -->
+        <legend>REGISTRATION FORM</legend>
+        <!--  Div for First Name-->
+        <div>
+          <label for="fname">First Name:</label><br />   
+
+          <input
+            id="fname"
+            type="text"
+            name="firstname"
+            placeholder="Enter Your First Name Here"
+          /><br />
+        </div>
+        <!-- -------------Div for LastName ----------->
+        <div>
+          <br />
+          <label for="lname">Last Name:</label><br />
+          <input
+            id="lname"
+            type="text"
+            name="lastname"
+            placeholder="Enter Last Name Here"
+          /><br />
+        </div>
+        <!-- -------------div for Gender Details------------ -->
+        <div>
+          <br />
+          <p>Gender</p>
+          <input id="male" type="radio" name="men" value="male" />
+          <label for="male">Male</label><br />
+          <input id="female" type="radio" name="women" value="female" />
+          <label for="female">Female</label><br />
+          <input id="other" name="other" value="other" type="radio" />
+          <label for="other">Other</label><br />
+        </div>
+        <!--  --------------------Email-------------------- -->
+        <div>
+          <br />
+          <label for="email">Email</label><br />
+
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="abc@gmail.com"
+          />
+          <br />
+        </div>
+        <!--  ------------------Text- Area------------------ -->
+        <div>
+          <br />
+          <textarea
+            name="message"
+            rows="10"
+            cols="100"
+            placeholder="Tell Us about Yourself.."
+          ></textarea>
+        </div>
+      </fieldset>
+      <br />
+      <!-- ---------------Button to Submit the Form---------------- -->
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

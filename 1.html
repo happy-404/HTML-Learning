@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTMl Learning</title>
+        <style>
+            .heading{
+                border: 3px solid black;
+                background-color: darkcyan;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-style: italic;
+            }
+            .body{
+                border: 5px solid gold;
+                border-radius: 3px;
+                background-color: silver;
+            }
+            .text{
+                font-style: oblique;
+            }
+            #one{color: red;}
+            #two{color: blue;}
+            #three{color: chocolate;}
+        </style>
+    </head>
+    <body id="start">
+
+        <p>
+            <h1>Hii! My name is Akash Sharma.</h1>
+            Hii! This is A library.
+            <br>
+            Hii! This is a Library.
+            Hii! I am The owner of this house.
+            <hr>  
+            <img src="https://wallpapers.com/images/hd/starry-night-over-mountains-zt0to2lebx20wyzt.webp" alt="Image Not Displayed" height="500px" width="1450px">  
+            
+            <h2>Learning Hyperlinks</h2>
+            <p><h6>ANCHOR</h6>tag is used for this purpose.</p> 
+            <h3>Using Images as Links</h3>
+            CLick on Below image to learn to about Space.<br>
+            <a href="https://www.spacex.com/" target="_blank"><img src="https://wallpapers.com/images/hd/spiral-milky-way-galaxy-57bi3fxyfrkifr0t.webp" alt="Image not available" height="50px" width="50px"></a>
+        </p>
+                
+        <h1>HTML Atributes</h1>
+        Being used for additional information about HTML ELement & Control their behaviour.
+        *Attributes always comes in name/value pair.
+        *It is a coomon practice to use both single & double quote
+        For Exampl; href,alt,style,src, & title is also used as attribute for some extra information about an element.
+        <p title="I Am a Tootlip">THis is use of title attribute</p>
+        <h1>Learning Text Formatting:</h1>
+        Text formatting is being used for the formatting the appearances of the teaxt.
+        Following are the exapmles of formating :<hr>
+        <!--BOLD Text-->
+        <b>Hii! I am the Example of BOLD Text.
+        </b><hr>
+        <!--Emphasized text-->
+        <em>Hii! I am the exapmle of emphasized text formatting.</em><hr>
+        <!--Italic Text-->
+        <i >Hii! I  am  the  example of italic text formatting.</i><hr style="color: blueviolet;">
+        <!--Smaller text formatting-->
+        <small>Hii! I am the example of the smaller text.
+        </small><hr>
+        <!--Important text-->
+        <strong>Hii! I am the Important Text.</strong><hr>
+        <!--Subscripted text-->
+        <sub>Hii! I am Subscripted </sub>.<hr>
+        <!--Underlined text-->
+        <u>Hii! I am Underline Text.</u><hr>
+        <!--Inserted Text-->
+        <ins>Hii! I am Inserted Text.</ins><hr>
+        <!--Delet Text formating-->
+        <del>Hii! I am Deleted Text.</del><hr>
+        <!--Unofficial text-->
+        <s>Hii! I am non important text</s><hr>
+        <!--Text highlighting-->
+        <mark>Hii! I am Marked Text.</mark><hr>
+        <!--Preformatted Text-->
+        <pre>Tis is the preformatted text.</pre><hr>
+        <!--Text Typed by a typewriter-->
+        Not Supported!<hr>  
+        <!--Piece of Computer Code-->
+        <code>This is a Computer Code </code><hr>
+        <!--Short Quoted Text-->
+        <q>Hii! i am the Quoted text.</q><hr>
+        <!--Text Cieting-->
+        <cite>Hii! I am the reference of the theory</cite><hr>
+        <!--Text Abbreviation-->
+        <abbr>Hii! I am the abbrivieation text.</abbr>
+        <h1 style="background-color: aqua;">Colors in HTML</h1>
+        <!--You can Add a BORDER around any HTML Element -->
+        <p style="border:5px solid rgba(33, 216, 48, 0.61);">I have added a  Border Around.
+            <b>The Color Property can be specified in 6 different ways.</b>
+            <ol>
+                <li>Using <q>rgb(255,0,255)</q></li>
+                <li>Using <q>hexadecimal color code #ff00ff</q>
+                <li>Using<q><b>HSL</b>(Hue,Saturation,Lightness)</q></li>   
+                <li>Using<q>rgba(Red,Green,Blue,Alpha)</q></li>
+                <li>Using<q>hsla(Hue,Saturation,Lightness,Alpha)</q></li>
+
+            </ol>
+         <h1 style="border: 3px solid black; background-color: chartreuse;" ><em>Lists in HTML:</em></h1>
+         <h2>1.Unordered List:</h2>
+         <ul style="border: 3px solid red;">
+            <!--We can also determine the list itme Marker with the "type" attribute-->
+            <li type="circle"> Apple</li>
+            <li type="disc">Mango</li>
+            <li type="none"> Akash</li>
+            <li type="square">Banana</li>
+        </ul>  
+        <h2>2.Ordered List</h2>
+        <ol style="border: 4px solid blueviolet;">
+            <!--Similiarlt, We can also number the ordered list using "type" attribute with different values like
+            "A" , "a" , "1" , "I" , "i"-->
+            <li type="1">Numbered with numbers</li>
+            <li type="A">Numbered with Uppercase Letters</li>
+            <li type="a">Numbered with Lowercase Letters</li>
+            <li type="I">Numbered with Uppercase Roman Numbers</li>
+            <li type="i"> Numbered with Lowercase Roman numbers</li>
+            <!--If you want to change the starting  numbering of list items using "start" attribute-->
+        </ol>
+        <h2>3.Description List:</h2>
+        <!--"<dl>"" tag for Description list
+                "<dt>" tag for Term to be Described 
+                       "<dd>" tag for definition of the term-->
+                        <dl>
+                            <dt>Delhi</dt>
+                                <dd>-Capital of India</dd>
+                            <dt>Washington</dt>
+                                 <dd>-Capital of America</dd>
+                            <dt>Ontario</dt>
+                                <dd>-Capital of Canada</dd>
+                        </dl>
+    <h1 style="border: 3px solid burlywood ;background-color: coral;" ><i>Block & Inline HTML</i></h1> 
+    <h2>Block Elements</h2>
+    <ul>
+        <li>Always starts on a new Line</li>
+        <li>Take Up the full width available on a webpage.</li>
+        <li>Browsers automatically add some space before and after the element</li>
+        <li>For Example: p >, div >,   h1 - h6 > , nav > , >ul, >ol, >dd , >form ,  >hr, >pre tags are Block level elements.</li>
+    </ul>
+        <p>Hii! I am  a Block Level Element. Hii! I Am Akash Sharma. <p>This is the demonstration of Block Level element</p>
+        <p>Akash Sharma.<div>Gaurav sharma</div></p>
+        <p>Vikash Sharma. </p>
+        <div style="background-color:black;color:white;padding:20px;">
+            <h2>London</h2>
+            <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+          </div>
+          <div style="margin: auto; background-color: darkkhaki;"><h3 style="text-align:center;">INDIA</h3>
+            <p><pre>India is a land of various cultures and a rich heritage.<br>
+                 It is the seventh-largest country by area and the second-most populous country globally.<br>
+                  The peacock is India's national bird, and the Bengal tiger is the country's national animal.<br>
+                   The national song is named Vande Matram (written by Bankimchandra Chatterji).</pre></p>
+        </div>
+          <h2 ><em>Inline Elements</em> </h2>
+          <ul>
+            <li>Does not start with a new line.</li>
+            <li>Take up as much as width is necessary.</li>
+            <li> For example;  b >, i > , span > , img > a >...</li>
+          </ul>
+          <p><i>An Inline Element cannot conatin a Block Level element</i></p>
+          <b> < span ></b>is <em>Inline conatiner</em> used to markup a part of a text , or a part of a document , or adding style to it.
+        
+        <h1 class="heading" >Class and Id in HTMl</h1>
+        <!--We Can also use multiple classes in the sam element-->
+        <div class="body text">
+            <h3 style="text-align: center;">SmartPhones</h3>
+
+            <p>Smart Phones are mobile phones with more facilities, hence called “Smartphone”.<br>
+                They can work as computer but is very small compared to it.<br>
+                It can send receive email, photographs and multimedia message.<br>
+                It can work as calculator. Communication made much easier.<br>
+                People and friends in abroad can be communicated through video calls,<br>
+                determining users exact location through GPRS is only available through Smartphone.<br>
+                Scanning various QR code for easy usage in a very important feature of the Smartphone.</p>
+            </div>
+            <p id="one">I am Id #one</p>
+            <p id="two">I am Id #two</p>
+            <p id="three">I am Id #three</p>
+            <!--We can not have Multiple Ids in smae HTMl Element-->
+            <p id="one" id="two" id="three">Hii ! I am multiple ids</p>
+            <h1 style="text-align: center; font-style: italic; color: brown;">Internal links</h1>
+            <a style="text-align: center;" href="#start">Click Here to Go at Top</a>
+            <h1 style="text-align: center;">Adding Script to HTML</h1>
+            <p>To use Javascript in your webpage, you need to insert it into your HTML page.</p>
+            <script>
+                document.getElementById("demo").innerHTML="My first Javascript";
+            </script>
+            <p id="demo"></p>
+
+
+
+        
+
+
+
+
+
+
+    
+
+        
+
+
+        
+    </body>
+
+    
+</html>
